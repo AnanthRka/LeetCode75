@@ -4,4 +4,4 @@ def runningSum(nums: list[int]) -> list[int]:
             nums[i] += nums[i-1]
     return nums
 
-print(runningSum([1,2,3,4,5]))
+print(runningSum([1,2,3,4,5]))  
